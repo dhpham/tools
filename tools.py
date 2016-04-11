@@ -134,7 +134,7 @@ class SearchResults():
         n = len(targets)
         for tgt in targets:
             i += 1
-            print ' [{0}/{1}] {2}'.format(i, n, title)
+            print ' [{0}/{1}] {2}'.format(i, n, tgt)
             plot2(dates[dates.target_name == tgt], o=tgt, title=tgt, logy=logy, p=p)
         print 'Done'
     
